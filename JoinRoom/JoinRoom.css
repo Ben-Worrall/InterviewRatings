@@ -30,6 +30,7 @@ body{
   
 }
 #JoinRoomBNT{
+    margin-left: 1%;
     width: 20%;
     height: 44%;
     border-radius:  15px 15px 15px 15px;
@@ -40,6 +41,7 @@ body{
 
 
 #back{
+    margin-top: 5%;
     position: absolute;
     top: 0;
     right: 0;
