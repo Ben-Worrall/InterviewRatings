@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Socket.IO Live Toasts Example</title>
-    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <title>RoomHomescreen</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-    <div id="container">
-      <h1>User Details</h1>
-      <p>Lorem  dolor, sit amet consectetur adipisicing elit. Consectetur dolorum explicabo quam dolores vero. Unde corrupti ea aut soluta modi, dolorum ex eius dignissimos? Vel necessitatibus tempore atque similique maxime!</p>
-      <div id="socketid" class="toast"></div>
-      <div id="globalToast" class="toast"></div>
-      <div id="userToast"></div>
-      <button id="update">Update Settings</button>
+    <div id="buttonHolder">
+        <button id="CreateRoom">
+            Create Room
+        </button>
+    
+    
+        <button id="JoinRoom">
+            Join Room
+        </button>
     </div>
-    <script src="/socket.io/socket.io.js"></script>
+    <script src="socket.io.js"></script>
   </body>
 </html>
