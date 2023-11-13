@@ -7,6 +7,6 @@ JoinRoom.addEventListener('mousedown', function(){
     window.location.assign(window.location.protocol + "JoinRoom/JoinRoom.html")
 })
 
-CreateRoom.addEventListener('click', function(){
-    console.log('CreateRoom')
+CreateRoom.addEventListener('mousedown', function(){
+    window.location.assign(window.location.protocol + "CreateRoom/CreateRoom.html")
 })

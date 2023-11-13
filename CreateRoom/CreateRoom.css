@@ -1,0 +1,102 @@
+body{
+    background-color: chocolate;
+    min-height: 100vh;
+   min-width: 100vw;
+   position: absolute;
+   padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* room password stuff */
+
+#RoomPassword{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1%;
+    margin-top: 1%;
+    font-size: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+#RoomPasswordTextOnly{
+    font-size: 300%;
+    margin-right: 2%;
+    ;
+}
+#RoomPasswordText{
+    border-radius:  15px 15px 15px 15px;
+    font-size: 300%;
+    border: 0.5vh solid black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+    width: 40%;
+}
+#CopyPassword{
+    border-radius:  15px 15px 15px 15px;
+    font-size: 300%;
+    border: 0.5vh solid black;
+}
+
+
+
+
+
+
+/* custom factor rating board stuff */
+
+#RatingBoard{
+
+}
+
+
+
+
+
+
+/* start and go back button stuff */
+
+
+
+#ButtonHolder-CreateRoom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#StartRoomBNT{
+    border-radius:  15px 15px 15px 15px;
+    font-size: 200%;
+    border: 0.5vh solid black;
+    margin-right: 1%;
+}
+#BackBNT{
+    border-radius:  15px 15px 15px 15px;
+    font-size: 200%;
+    border: 0.5vh solid black;
+    margin-left: 1%;
+}
+
+
+
+
+
