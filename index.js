@@ -3,7 +3,8 @@ var CreateRoom = document.getElementById('CreateRoom')
 
 
 JoinRoom.addEventListener('click', function(){
-    console.log('JoinRoom')
+
+    window.location.assign(window.location.protocol + "JoinRoom/JoinRoom.html")
 })
 
 CreateRoom.addEventListener('click', function(){
