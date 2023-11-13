@@ -29,26 +29,26 @@ body{
     width: 100%;
 }
 #RoomPasswordTextOnly{
-    font-size: 300%;
-    margin-right: 2%;
-    ;
+    font-size: 400%;
+    margin-right: 1%;
+    
 }
 #RoomPasswordText{
     border-radius:  15px 15px 15px 15px;
-    font-size: 300%;
-    border: 0.5vh solid black;
+    font-size: 400%;
+    border: 0.25vh solid black;
     background-color: white;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2%;
+    margin-right: 0.5%;
     width: 40%;
 }
 #CopyPassword{
     border-radius:  15px 15px 15px 15px;
-    font-size: 300%;
-    border: 0.5vh solid black;
+    font-size: 400%;
+    border: 0.25vh solid black;
 }
 
 
@@ -59,9 +59,20 @@ body{
 /* custom factor rating board stuff */
 
 #RatingBoard{
-
+    position: absolute;
+    width: 95%;
+    height: 70%;
+    background-color: white;
+    overflow: auto;
+    
 }
-
+.factor{
+    border: 0.25vh solid black;
+    width: 49%;
+    height: 10%;
+    float: left;
+    
+}
 
 
 
@@ -85,14 +96,14 @@ body{
 }
 #StartRoomBNT{
     border-radius:  15px 15px 15px 15px;
-    font-size: 200%;
-    border: 0.5vh solid black;
+    font-size: 300%;
+    border: 0.25vh solid black;
     margin-right: 1%;
 }
 #BackBNT{
     border-radius:  15px 15px 15px 15px;
-    font-size: 200%;
-    border: 0.5vh solid black;
+    font-size: 300%;
+    border: 0.25vh solid black;
     margin-left: 1%;
 }
 
