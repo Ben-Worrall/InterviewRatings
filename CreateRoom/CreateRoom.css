@@ -71,6 +71,15 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
 /* custom factor rating board stuff */
 
 #RatingBoard{
@@ -86,7 +95,7 @@ body{
 /* add factor div and button */
 #AddFactorDiv{
     outline: 0.25vh solid black;
-    width: 49.5%;
+    width: 50%;
     height: 12.5%;
     float: left;
     display: flex;
@@ -117,8 +126,8 @@ body{
     float: left;
     text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     
 }
 .factorText{
@@ -134,18 +143,18 @@ body{
     outline: 0px solid transparent
 }
 .factorRating{
-    width: 35%;
+    width: 40%;
     float: right;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100%;
     font-size: 200%;
 }
 .ratingOutOf{
     outline: 0px solid transparent;
-    width:33%;
+    width:40%;
 }
 .ratingFor{
     width: 33%;
@@ -153,7 +162,21 @@ body{
 .slash{
     margin-right: 5%;
 }
+.DelFactorHolder{
+    height: 100%;
+    display: flex;
+    align-items: start;
+}
+.DelFactor{
+    position: relative;
+   float: right;
+   font-size: 100%;
+   background-color: red;
+   color:white;
+   border: 0px solid transparent;
 
+
+}
 
 
 

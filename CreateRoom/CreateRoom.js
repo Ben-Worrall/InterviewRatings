@@ -57,6 +57,7 @@ function addFactor(){
     let div1 = document.createElement('div')
     div1.classList.add('ratingFor')
     div1.innerText = "?"
+    div1.contentEditable = "false"
     factorRating.appendChild(div1)
 
     let div2 = document.createElement('div')
@@ -73,12 +74,23 @@ function addFactor(){
     factorRating.appendChild(div3)
 
 
+    //create exit button
+    let exitBNT = document.createElement('button')
+    exitBNT.classList.add('DelFactor')
+    exitBNT.innerText = "X"
+    exitBNT.setAttribute('onmousedown', "CloseFactor(this)")
+    let BntHolder = document.createElement('div')
+    BntHolder.classList.add('DelFactorHolder')
+    BntHolder.appendChild(exitBNT)
+
+
+
     //append factor to the rating board
-    
     factor.appendChild(factorText)
     factor.appendChild(factorRating)
+    factor.appendChild(BntHolder)
     document.getElementById('RatingBoard').appendChild(factor)
-  
+    
 
 
     //create new (add factor) div
@@ -105,4 +117,12 @@ function addFactor(){
 function ClearText(e){
     e.innerText = ""
     e.focus()
+}
+
+//exit/close current factor 
+
+function CloseFactor(e){
+    console.log(e.parentNode.parentNode)
+    e.parentNode.parentNode.remove()
+
 }
