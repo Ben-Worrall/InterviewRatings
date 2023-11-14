@@ -37,6 +37,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
+
 }
 #RoomPasswordText{
     border-radius:  15px 15px 15px 15px;
@@ -61,6 +63,7 @@ body{
     height: 95%;
     background-color: white;
     overflow: hidden;
+    user-select: none;
 }
 
 
@@ -79,14 +82,17 @@ body{
     margin-bottom: 1%;
     margin-top: 1%;
 }
+
+/* add factor div and button */
 #AddFactorDiv{
     outline: 0.25vh solid black;
     width: 49.5%;
-    height: 10%;
+    height: 12.5%;
     float: left;
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 #AddFactorBNT{
     background-color: green;
@@ -100,14 +106,52 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 90%;
+    user-select: none;
 }
+
+/* the factor and its conponents */
 .factor{
     outline: 0.25vh solid black;
-    width: 49.5%;
+    width: 50%;
     height: 12.5%;
     float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
-    
+}
+.factorText{
+    width: 65%;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5vh solid black;
+    height: max-content;
+    font-size: 200%;
+    outline: 0px solid transparent
+}
+.factorRating{
+    width: 35%;
+    float: right;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 200%;
+}
+.ratingOutOf{
+    outline: 0px solid transparent;
+    width:33%;
+}
+.ratingFor{
+    width: 33%;
+}
+.slash{
+    margin-right: 5%;
 }
 
 
@@ -139,6 +183,7 @@ body{
     font-size: 350%;
     border: 0.25vh solid black;
     margin-right: 1%;
+    user-select: none;
 }
 #BackBNT{
     display: flex;
@@ -149,6 +194,7 @@ body{
     font-size: 350%;
     border: 0.25vh solid black;
     margin-left: 1%;
+    user-select: none;
 }
 
 

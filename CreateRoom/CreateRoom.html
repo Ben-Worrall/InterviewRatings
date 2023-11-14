@@ -20,9 +20,24 @@
     <!-- create factors for ratings -->
     <div id="RatingBoard">
 
-       <!-- <div class="factor">1</div> -->
+       <!--
+       <div class="factor">
+
+          <div class="factorText" contenteditable="true" spellcheck="false" onmousedown="ClearText(this)">
+            Edit Factor
+          </div>
+
+          <div class="factorRating">
+            <div class="ratingFor">5</div>
+            <div class="slash">/</div>
+            <div contenteditable="true" onmousedown="ClearText(this)" style="width: 33%;" class="ratingOutOf">Edit</div>
+          </div>
+
+       </div>
+        -->
+
        <div id="AddFactorDiv">
-        <button id="AddFactorBNT">Add Factor</button>
+        <button id="AddFactorBNT" onmousedown="addFactor()">Add Factor</button>
        </div>
         
 
