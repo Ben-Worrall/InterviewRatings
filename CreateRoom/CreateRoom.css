@@ -18,25 +18,27 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 1%;
-    margin-top: 1%;
     font-size: 50%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10%;
+    height: 15%;
     width: 100%;
 }
 #RoomPasswordTextOnly{
-    font-size: 400%;
+    font-size: 700%;
     margin-right: 1%;
     color: white;
-    
+    height: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #RoomPasswordText{
     border-radius:  15px 15px 15px 15px;
-    font-size: 400%;
+    font-size: 700%;
     border: 0.25vh solid black;
     background-color: white;
     text-align: center;
@@ -44,12 +46,18 @@ body{
     align-items: center;
     justify-content: center;
     margin-right: 0.5%;
-    width: 40%;
+    width: 45%;
+    height: 45%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space:nowrap;
 }
 #CopyPassword{
     border-radius:  15px 15px 15px 15px;
-    font-size: 400%;
+    font-size: 500%;
     border: 0.25vh solid black;
+    height: 50%;
+    background-color: white;
 }
 
 
@@ -97,13 +105,13 @@ body{
 }
 #StartRoomBNT{
     border-radius:  15px 15px 15px 15px;
-    font-size: 300%;
+    font-size: 400%;
     border: 0.25vh solid black;
     margin-right: 1%;
 }
 #BackBNT{
     border-radius:  15px 15px 15px 15px;
-    font-size: 300%;
+    font-size: 400%;
     border: 0.25vh solid black;
     margin-left: 1%;
 }
