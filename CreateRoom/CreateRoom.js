@@ -1,3 +1,9 @@
+//document.getElementById('copiedToolTip').style.display = "none"
+
+
+
+
+
 
 //create random password
 const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
@@ -29,8 +35,33 @@ var RoomPassword = document.getElementById('RoomPasswordText').innerHTML
         } catch (err) {
           console.error('Failed to copy: ', err);
         }
-      
-}
+
+        //show "copied" when user clicks copy
+        function showCopied(){
+            document.getElementById('copiedToolTip').style.display = ""
+            setTimeout(hideCopied, 1500)
+        }
+        
+        function hideCopied(){
+            document.getElementById('copiedToolTip').style.display = "none"
+        }
+
+        showCopied()
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //add factor button
